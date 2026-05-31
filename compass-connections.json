@@ -1,0 +1,24 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "eff76676-d242-4df9-9381-88d252a4a79d",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1780126272441"
+        }
+      },
+      "favorite": {
+        "name": "travel-blog"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {}
+      }
+    }
+  ]
+}

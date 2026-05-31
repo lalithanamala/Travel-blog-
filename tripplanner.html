@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trip Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 class="heading">Plan Your Dream Trip</h1>
+
+<div class="planner">
+
+<form>
+
+<label>Full Name</label>
+<input type="text">
+
+<label>Select Destination</label>
+
+<select>
+    <option>Goa</option>
+    <option>Manali</option>
+    <option>Kerala</option>
+</select>
+
+<label>Travel Date</label>
+<input type="date">
+
+<label>Number of Days</label>
+<input type="number">
+
+<label>Number of Travelers</label>
+<input type="number">
+
+<label>Preferred Places to Visit</label>
+
+<textarea rows="5"
+placeholder="Example: Baga Beach, Dudhsagar Falls"></textarea>
+
+<button type="submit">
+Generate Trip Plan
+</button>
+<button type="button"
+onclick="generatePlan()">
+Generate Plan
+</button>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+
+</form>
+
+</div>
+
+</body>
+</html>
